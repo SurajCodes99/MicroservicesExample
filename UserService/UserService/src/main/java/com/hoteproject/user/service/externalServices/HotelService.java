@@ -10,3 +10,4 @@ public interface HotelService {
     @GetMapping("/hotels/getById/{hotelId}")
     Hotel getHotel(@PathVariable Integer hotelId);
 }
+//Testing if the push goes through
